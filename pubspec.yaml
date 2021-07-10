@@ -1,0 +1,18 @@
+name: paws_controller
+description: The controller to the P.A.W.S server.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter_blue: ^0.7.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
